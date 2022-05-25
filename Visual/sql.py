@@ -42,8 +42,8 @@ class App:
         self.cursor.execute(sql)
         lastdata = self.cursor.fetchall()
         for i in lastdata:
-            print("Time",i[3])
-            Time.append(i[3])
+            print("Time",i[15])
+            Time.append(i[15])
         return Time
 
 
@@ -57,7 +57,7 @@ application.Mostrar()
 #listaTime = application.GuardarTime()
 #print("Lista---------------------------------------------------")
 #print(Lista)
-print("Lista Time----------------------------------------------------")
+#print("Lista Time----------------------------------------------------")
 #print(listaTime)
 
 
